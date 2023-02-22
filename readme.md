@@ -21,7 +21,10 @@ pip install -r requirements.txt -i http://pypi.douban.com/simple/
 
 4：修改run.js 运行main.py 就能运行注入脚本了
 
-
+运行其他流程的方法
+```shell
+python main.py xxx.js
+```
 
 # 关于下载chromedriver.exe
 
@@ -40,3 +43,20 @@ https://chromedriver.chromium.org/downloads
 # 定时任务
 运行定时任务可以依赖windows定时任务，或者自行修改python脚本都可以
 
+# 假如我有多个流程需要运行
+```shell
+python main.py xxx.js
+```
+已编译的
+```shell
+main.exe xxx.js
+```
+
+# 假如我有多个浏览器需要运行
+浏览器的debug需要配置不同的端口，运行程序传递端口参数
+```shell
+python main.py 9991 xxx.js
+```
+```shell
+main.exe 9991 xxx.js
+```
