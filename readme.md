@@ -57,6 +57,7 @@ main.exe xxx.js
 ```shell
 python main.py 9991 xxx.js
 ```
+已编译的
 ```shell
 main.exe 9991 xxx.js
 ```
